@@ -18,7 +18,7 @@ export default function Mainpage() {
   }
   return (
 <div onLoad={skills}>
-  <h2>Welcome</h2>
+  
   <Navbar/>
   <img style={{width:"100%",height:"600px"}} src={require("./peakpx.jpg")}/>
   <div className='text-danger mx-4' style={{float:"right",
