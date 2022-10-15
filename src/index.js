@@ -4,19 +4,16 @@ import './index.css';
 import "../node_modules/bootstrap/dist/css/bootstrap.css"
 import "../node_modules/bootstrap-icons/font/bootstrap-icons.css"
 import reportWebVitals from './reportWebVitals';
-import DishRouteTable from './Dish Order/DishRouteTable';
-import New from './New';
+import Mainpage from './Portfolio/Mainpage';
+import PortfolioRoutes from './Portfolio/PortfolioRoutes';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-//<Landingpage/>
-//<RouteTable/>
-//<RasRouteTable />
-//
+
 root.render(
   <React.StrictMode>
-     <DishRouteTable/>
+     <PortfolioRoutes/>
   </React.StrictMode>
 );
 
