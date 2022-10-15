@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import React from 'react'
 
 export default function Navbar() {
-  return (
+  return ( 
     <div>
               <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
     <div className="container-fluid">
