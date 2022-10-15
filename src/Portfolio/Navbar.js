@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Navbar() {
   return ( 
-    <div>
+    <div> 
               <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
     <div className="container-fluid">
     <a className="navbar-brand">AVIJIT</a>
