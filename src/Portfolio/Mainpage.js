@@ -9,7 +9,7 @@ export default function Mainpage() {
     if(i<text.length){
       document.getElementById("skill").innerHTML+=text.charAt(i);
       i++
-    }
+    } 
     if(i>=text.length){
       document.getElementById("skill").innerText="";
       i=0;
