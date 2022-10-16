@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
-
+import "./Mainpage.css"
 export default function Mainpage() {
   var i=0;
   var text="HTML,CSS,Bootstrap,Javascript,ReactJS.";
@@ -13,19 +13,19 @@ export default function Mainpage() {
     if(i>=text.length){
       document.getElementById("skill").innerText="";
       i=0;
-    }
+    }    
+ 
     setTimeout(skills,800)
-  }
+  }  
   return (
 <div onLoad={skills}>
-  
   <Navbar/>
   <img style={{width:"100%",height:"600px"}} src={require("./peakpx.jpg")}/>
   <div className='text-danger mx-4' style={{float:"right",
                                position:"relative",
-                               marginTop:"-200px"}}>
+                               marginTop:"-200px",}}>
     <h1>
-    Hi,I am an UI/UX Developer
+    Hi,I am an UI/UX <span className="type"></span>
     </h1>
   <em style={{color:"burlywood"}} id="skill"></em>
   <br/>

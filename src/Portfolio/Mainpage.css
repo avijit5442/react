@@ -1,0 +1,14 @@
+.type::before{
+    content:"Developer";
+    
+    animation:animate infinite 3s
+}
+@keyframes animate {
+    0%{
+        content:"Developer"
+    }
+    100%{
+        content:" Designer";
+        color:burlywood
+    }
+}
